@@ -978,62 +978,58 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0zU-7i-bCm" userLabel="TabView">
-                                <rect key="frame" x="16" y="20" width="288" height="40"/>
+                                <rect key="frame" x="20" y="84" width="280" height="40"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bwz-nq-DUx">
-                                        <rect key="frame" x="50" y="4" width="32" height="33"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="32" id="f39-0q-siy"/>
-                                            <constraint firstAttribute="height" constant="33" id="iXb-oT-khL"/>
-                                        </constraints>
+                                        <rect key="frame" x="0.0" y="0.0" width="129" height="40"/>
                                         <fontDescription key="fontDescription" name="VarelaRound" family="Varela Round" pointSize="17"/>
                                         <state key="normal" title="Buy">
                                             <color key="titleColor" red="0.1019607843" green="0.69019607839999997" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="buttonBuyTapped:" destination="caX-Pt-n4e" eventType="touchUpInside" id="2np-Uz-BBx"/>
+                                            <action selector="buttonBuyTapped:" destination="caX-Pt-n4e" eventType="touchUpInside" id="v1s-FR-DUJ"/>
                                         </connections>
                                     </button>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7s7-dN-Xku" userLabel="VerticalLineView">
-                                        <rect key="frame" x="143" y="5" width="1" height="30"/>
+                                        <rect key="frame" x="139.5" y="5" width="1" height="30"/>
                                         <color key="backgroundColor" red="0.50980392159999999" green="0.50980392159999999" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="1" id="7H8-y3-MIG"/>
+                                            <constraint firstAttribute="width" constant="1" id="fUj-0z-YvH"/>
+                                            <constraint firstAttribute="height" constant="30" id="tkG-33-VsY"/>
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yeb-cD-yuE">
-                                        <rect key="frame" x="199" y="3" width="39" height="33"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="39" id="Gwr-Cf-WT3"/>
-                                            <constraint firstAttribute="height" constant="33" id="zFb-eq-Twt"/>
-                                        </constraints>
+                                        <rect key="frame" x="151" y="0.0" width="129" height="40"/>
                                         <fontDescription key="fontDescription" name="VarelaRound" family="Varela Round" pointSize="17"/>
                                         <state key="normal" title="Rent">
                                             <color key="titleColor" red="0.50980392159999999" green="0.50980392159999999" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="buttonRentTapped:" destination="caX-Pt-n4e" eventType="touchUpInside" id="oCv-kr-XxT"/>
+                                            <action selector="buttonRentTapped:" destination="caX-Pt-n4e" eventType="touchUpInside" id="Fna-w9-A9a"/>
                                         </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="0pQ-yd-s9L"/>
-                                    <constraint firstItem="bwz-nq-DUx" firstAttribute="centerY" secondItem="0zU-7i-bCm" secondAttribute="centerY" id="LGZ-jS-KkD"/>
-                                    <constraint firstAttribute="bottom" secondItem="7s7-dN-Xku" secondAttribute="bottom" constant="5" id="QsN-Pv-bdA"/>
-                                    <constraint firstItem="7s7-dN-Xku" firstAttribute="top" secondItem="0zU-7i-bCm" secondAttribute="top" constant="5" id="V0a-gw-Yu6"/>
-                                    <constraint firstItem="bwz-nq-DUx" firstAttribute="leading" secondItem="0zU-7i-bCm" secondAttribute="leading" constant="50" id="Yy1-pY-SUu"/>
-                                    <constraint firstItem="yeb-cD-yuE" firstAttribute="centerY" secondItem="0zU-7i-bCm" secondAttribute="centerY" id="bjn-Io-NUR"/>
-                                    <constraint firstItem="7s7-dN-Xku" firstAttribute="centerX" secondItem="0zU-7i-bCm" secondAttribute="centerX" id="gfS-vk-ZZV"/>
-                                    <constraint firstAttribute="trailing" secondItem="yeb-cD-yuE" secondAttribute="trailing" constant="50" id="rSC-qB-gQK"/>
+                                    <constraint firstItem="7s7-dN-Xku" firstAttribute="leading" secondItem="bwz-nq-DUx" secondAttribute="trailing" constant="10.5" id="7J0-LV-Wgw"/>
+                                    <constraint firstAttribute="bottom" secondItem="yeb-cD-yuE" secondAttribute="bottom" id="9dg-QQ-GWs"/>
+                                    <constraint firstAttribute="height" constant="40" id="Eeo-Mj-v2u"/>
+                                    <constraint firstItem="bwz-nq-DUx" firstAttribute="leading" secondItem="0zU-7i-bCm" secondAttribute="leading" id="PcY-9W-ofW"/>
+                                    <constraint firstItem="7s7-dN-Xku" firstAttribute="centerY" secondItem="0zU-7i-bCm" secondAttribute="centerY" id="TV4-nU-6mc"/>
+                                    <constraint firstItem="yeb-cD-yuE" firstAttribute="leading" secondItem="7s7-dN-Xku" secondAttribute="trailing" constant="10.5" id="TXs-Zs-MMe"/>
+                                    <constraint firstItem="yeb-cD-yuE" firstAttribute="top" secondItem="0zU-7i-bCm" secondAttribute="top" id="fzI-3e-Zjj"/>
+                                    <constraint firstAttribute="trailing" secondItem="yeb-cD-yuE" secondAttribute="trailing" id="jOw-ON-gUo"/>
+                                    <constraint firstItem="7s7-dN-Xku" firstAttribute="centerX" secondItem="0zU-7i-bCm" secondAttribute="centerX" id="qXd-vz-MjD"/>
+                                    <constraint firstItem="bwz-nq-DUx" firstAttribute="top" secondItem="0zU-7i-bCm" secondAttribute="top" id="sQF-gr-o7p"/>
+                                    <constraint firstAttribute="bottom" secondItem="bwz-nq-DUx" secondAttribute="bottom" id="t17-zD-0mZ"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="0zU-7i-bCm" firstAttribute="top" secondItem="1GY-Se-ngF" secondAttribute="bottom" id="Mmu-ZU-Agh"/>
-                            <constraint firstAttribute="trailing" secondItem="0zU-7i-bCm" secondAttribute="trailing" constant="16" id="dBI-tw-TDp"/>
-                            <constraint firstItem="0zU-7i-bCm" firstAttribute="leading" secondItem="phH-M9-X34" secondAttribute="leading" constant="16" id="uWi-6M-vKG"/>
+                            <constraint firstAttribute="trailing" secondItem="0zU-7i-bCm" secondAttribute="trailing" constant="20" id="0El-rt-vHL"/>
+                            <constraint firstItem="0zU-7i-bCm" firstAttribute="leading" secondItem="phH-M9-X34" secondAttribute="leading" constant="20" id="O1i-R2-dsG"/>
+                            <constraint firstItem="0zU-7i-bCm" firstAttribute="top" secondItem="1GY-Se-ngF" secondAttribute="bottom" constant="64" id="udN-1Q-CMY"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="HOME" image="home" selectedImage="home_selected" id="y1u-Vu-5hl"/>
@@ -1045,12 +1041,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="naD-RG-QpV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3901.875" y="1371.1267605633802"/>
+            <point key="canvasLocation" x="3801" y="1329"/>
         </scene>
         <!--Page View Controller-->
         <scene sceneID="re6-t0-OB6">
             <objects>
-                <pageViewController storyboardIdentifier="PageViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="none" id="CqT-ol-BCG" sceneMemberID="viewController"/>
+                <pageViewController storyboardIdentifier="PageViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="CqT-ol-BCG" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JiY-kh-y5j" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3902" y="2039"/>
@@ -1483,6 +1479,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="yXp-dJ-9zw" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="xar-eT-gIe">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <color key="tintColor" red="0.50980392159999999" green="0.50980392159999999" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
