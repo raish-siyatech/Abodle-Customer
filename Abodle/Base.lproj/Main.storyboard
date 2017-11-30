@@ -983,9 +983,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bwz-nq-DUx">
                                         <rect key="frame" x="0.0" y="0.0" width="129" height="40"/>
                                         <fontDescription key="fontDescription" name="VarelaRound" family="Varela Round" pointSize="17"/>
-                                        <state key="normal" title="Buy">
-                                            <color key="titleColor" red="0.1019607843" green="0.69019607839999997" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
+                                        <state key="normal" title="Buy"/>
                                         <connections>
                                             <action selector="buttonBuyTapped:" destination="caX-Pt-n4e" eventType="touchUpInside" id="v1s-FR-DUJ"/>
                                         </connections>
@@ -1001,9 +999,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yeb-cD-yuE">
                                         <rect key="frame" x="151" y="0.0" width="129" height="40"/>
                                         <fontDescription key="fontDescription" name="VarelaRound" family="Varela Round" pointSize="17"/>
-                                        <state key="normal" title="Rent">
-                                            <color key="titleColor" red="0.50980392159999999" green="0.50980392159999999" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
+                                        <state key="normal" title="Rent"/>
                                         <connections>
                                             <action selector="buttonRentTapped:" destination="caX-Pt-n4e" eventType="touchUpInside" id="Fna-w9-A9a"/>
                                         </connections>
