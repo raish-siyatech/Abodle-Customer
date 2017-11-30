@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0403AD001FC8366900A6D0D5 /* ModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403ACFF1FC8366900A6D0D5 /* ModeViewController.swift */; };
+		0403AD031FC8369E00A6D0D5 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403AD021FC8369E00A6D0D5 /* OTPViewController.swift */; };
+		0404463F1FC7E800006791AE /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0404463D1FC7E800006791AE /* CoreData.xcdatamodeld */; };
+		040446421FC7E9FF006791AE /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040446411FC7E9FF006791AE /* CoreDataManager.swift */; };
+		0405DFE71FC6FA6C00BDCF58 /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0405DFE61FC6FA6C00BDCF58 /* MD5.swift */; };
+		0405DFEA1FC6FC9100BDCF58 /* LoadingIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0405DFE91FC6FC9100BDCF58 /* LoadingIndicatorView.swift */; };
+		0405DFED1FC7001C00BDCF58 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0405DFEC1FC7001C00BDCF58 /* Customer.swift */; };
+		0405DFF31FC706A300BDCF58 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0405DFF21FC706A300BDCF58 /* LoginViewController.swift */; };
+		040DE2671FCED7E3007AD0E2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DE2661FCED7E3007AD0E2 /* HomeViewController.swift */; };
+		040DE2691FCED9B9007AD0E2 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DE2681FCED9B9007AD0E2 /* ShadowView.swift */; };
+		040DE26C1FCEE227007AD0E2 /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DE26B1FCEE227007AD0E2 /* BuyViewController.swift */; };
+		040DE26F1FCEE866007AD0E2 /* RentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DE26E1FCEE866007AD0E2 /* RentViewController.swift */; };
+		0468DE321FC9365800E1D535 /* UpdateNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0468DE311FC9365800E1D535 /* UpdateNumberViewController.swift */; };
+		04B95CDC1FC6EC69000DE373 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B95CDB1FC6EC69000DE373 /* NetworkManager.swift */; };
+		04B95CDF1FC6ECB7000DE373 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B95CDE1FC6ECB7000DE373 /* Constant.swift */; };
+		04D7E70C1FC69085001B6322 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D7E70B1FC69085001B6322 /* AppDelegate.swift */; };
+		04D7E70E1FC69085001B6322 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D7E70D1FC69085001B6322 /* SignUpViewController.swift */; };
+		04D7E7111FC69085001B6322 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D7E70F1FC69085001B6322 /* Main.storyboard */; };
+		04D7E7131FC69085001B6322 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D7E7121FC69085001B6322 /* Assets.xcassets */; };
+		04D7E7161FC69085001B6322 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D7E7141FC69085001B6322 /* LaunchScreen.storyboard */; };
+		04D7E71F1FC69458001B6322 /* DTTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D7E71E1FC69458001B6322 /* DTTextField.swift */; };
+		04D7E7271FC69F13001B6322 /* OPENSANS-BOLD.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 04D7E7211FC69F13001B6322 /* OPENSANS-BOLD.TTF */; };
+		04D7E7281FC69F13001B6322 /* OPENSANS-ITALIC.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 04D7E7221FC69F13001B6322 /* OPENSANS-ITALIC.TTF */; };
+		04D7E7291FC69F13001B6322 /* OPENSANS-LIGHT.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 04D7E7231FC69F13001B6322 /* OPENSANS-LIGHT.TTF */; };
+		04D7E72A1FC69F13001B6322 /* OPENSANS-REGULAR.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 04D7E7241FC69F13001B6322 /* OPENSANS-REGULAR.TTF */; };
+		04D7E72B1FC69F13001B6322 /* OPENSANS-SEMIBOLD.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 04D7E7251FC69F13001B6322 /* OPENSANS-SEMIBOLD.TTF */; };
+		04D7E72C1FC69F13001B6322 /* VarelaRound-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04D7E7261FC69F13001B6322 /* VarelaRound-Regular.otf */; };
+		04D7E72F1FC6DAE2001B6322 /* Hidekeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D7E72E1FC6DAE2001B6322 /* Hidekeyboard.swift */; };
+		BA4F29B9F90EBD8F08561547 /* Pods_Abodle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BAE8391DD5FF364504BAA7E /* Pods_Abodle.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0403ACFF1FC8366900A6D0D5 /* ModeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModeViewController.swift; sourceTree = "<group>"; };
+		0403AD021FC8369E00A6D0D5 /* OTPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		0404463E1FC7E800006791AE /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
+		040446411FC7E9FF006791AE /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		0405DFE61FC6FA6C00BDCF58 /* MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MD5.swift; sourceTree = "<group>"; };
+		0405DFE91FC6FC9100BDCF58 /* LoadingIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorView.swift; sourceTree = "<group>"; };
+		0405DFEC1FC7001C00BDCF58 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		0405DFF21FC706A300BDCF58 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		040DE2661FCED7E3007AD0E2 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		040DE2681FCED9B9007AD0E2 /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		040DE26B1FCEE227007AD0E2 /* BuyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
+		040DE26E1FCEE866007AD0E2 /* RentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RentViewController.swift; sourceTree = "<group>"; };
+		0468DE311FC9365800E1D535 /* UpdateNumberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateNumberViewController.swift; sourceTree = "<group>"; };
+		04B95CDB1FC6EC69000DE373 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		04B95CDE1FC6ECB7000DE373 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		04D7E7081FC69085001B6322 /* Abodle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Abodle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D7E70B1FC69085001B6322 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04D7E70D1FC69085001B6322 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = ../../SignUpViewController.swift; sourceTree = "<group>"; };
+		04D7E7101FC69085001B6322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04D7E7121FC69085001B6322 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04D7E7151FC69085001B6322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04D7E7171FC69085001B6322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D7E71E1FC69458001B6322 /* DTTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTTextField.swift; sourceTree = "<group>"; };
+		04D7E7211FC69F13001B6322 /* OPENSANS-BOLD.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OPENSANS-BOLD.TTF"; sourceTree = "<group>"; };
+		04D7E7221FC69F13001B6322 /* OPENSANS-ITALIC.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OPENSANS-ITALIC.TTF"; sourceTree = "<group>"; };
+		04D7E7231FC69F13001B6322 /* OPENSANS-LIGHT.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OPENSANS-LIGHT.TTF"; sourceTree = "<group>"; };
+		04D7E7241FC69F13001B6322 /* OPENSANS-REGULAR.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OPENSANS-REGULAR.TTF"; sourceTree = "<group>"; };
+		04D7E7251FC69F13001B6322 /* OPENSANS-SEMIBOLD.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OPENSANS-SEMIBOLD.TTF"; sourceTree = "<group>"; };
+		04D7E7261FC69F13001B6322 /* VarelaRound-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VarelaRound-Regular.otf"; sourceTree = "<group>"; };
+		04D7E72E1FC6DAE2001B6322 /* Hidekeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hidekeyboard.swift; sourceTree = "<group>"; };
+		37BF7C2F2D5678B834357124 /* Pods-Abodle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abodle.release.xcconfig"; path = "Pods/Target Support Files/Pods-Abodle/Pods-Abodle.release.xcconfig"; sourceTree = "<group>"; };
+		8BAE8391DD5FF364504BAA7E /* Pods_Abodle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Abodle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D459E93E8CEA254C2116DBF7 /* Pods-Abodle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abodle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Abodle/Pods-Abodle.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04D7E7051FC69085001B6322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4F29B9F90EBD8F08561547 /* Pods_Abodle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0403ACFE1FC8365000A6D0D5 /* ModeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0403ACFF1FC8366900A6D0D5 /* ModeViewController.swift */,
+			);
+			path = ModeViewController;
+			sourceTree = "<group>";
+		};
+		0403AD011FC8368B00A6D0D5 /* OtpViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0403AD021FC8369E00A6D0D5 /* OTPViewController.swift */,
+			);
+			path = OtpViewController;
+			sourceTree = "<group>";
+		};
+		040446401FC7E9E4006791AE /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				040446411FC7E9FF006791AE /* CoreDataManager.swift */,
+			);
+			path = CoreDataManager;
+			sourceTree = "<group>";
+		};
+		0405DFE81FC6FC7500BDCF58 /* LoadingIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				0405DFE91FC6FC9100BDCF58 /* LoadingIndicatorView.swift */,
+			);
+			path = LoadingIndicator;
+			sourceTree = "<group>";
+		};
+		0405DFEB1FC7000D00BDCF58 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0405DFEC1FC7001C00BDCF58 /* Customer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0405DFEE1FC705FB00BDCF58 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0405DFF11FC7068700BDCF58 /* LoginViewController */,
+				0405DFF41FC70F3600BDCF58 /* SignupViewController */,
+				0468DE301FC935C000E1D535 /* ChangeMobileNumber */,
+				0403AD011FC8368B00A6D0D5 /* OtpViewController */,
+				0403ACFE1FC8365000A6D0D5 /* ModeViewController */,
+				040DE2651FCED7A9007AD0E2 /* HomeViewController */,
+				040DE26A1FCEE1FC007AD0E2 /* BuyViewController */,
+				040DE26D1FCEE85A007AD0E2 /* RentViewController */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0405DFF11FC7068700BDCF58 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0405DFF21FC706A300BDCF58 /* LoginViewController.swift */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		0405DFF41FC70F3600BDCF58 /* SignupViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04D7E70D1FC69085001B6322 /* SignUpViewController.swift */,
+			);
+			path = SignupViewController;
+			sourceTree = "<group>";
+		};
+		040DE2651FCED7A9007AD0E2 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				040DE2661FCED7E3007AD0E2 /* HomeViewController.swift */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		040DE26A1FCEE1FC007AD0E2 /* BuyViewController */ = {
+			isa = PBXGroup;
+			children = (
+				040DE26B1FCEE227007AD0E2 /* BuyViewController.swift */,
+			);
+			path = BuyViewController;
+			sourceTree = "<group>";
+		};
+		040DE26D1FCEE85A007AD0E2 /* RentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				040DE26E1FCEE866007AD0E2 /* RentViewController.swift */,
+			);
+			path = RentViewController;
+			sourceTree = "<group>";
+		};
+		0468DE301FC935C000E1D535 /* ChangeMobileNumber */ = {
+			isa = PBXGroup;
+			children = (
+				0468DE311FC9365800E1D535 /* UpdateNumberViewController.swift */,
+			);
+			path = ChangeMobileNumber;
+			sourceTree = "<group>";
+		};
+		04B95CDA1FC6EC46000DE373 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				04B95CDB1FC6EC69000DE373 /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		04B95CDD1FC6ECB7000DE373 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				04B95CDE1FC6ECB7000DE373 /* Constant.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		04D7E6FF1FC69085001B6322 = {
+			isa = PBXGroup;
+			children = (
+				04D7E70A1FC69085001B6322 /* Abodle */,
+				04D7E7091FC69085001B6322 /* Products */,
+				68361B831D7B3E5896EC078B /* Pods */,
+				BF272F8E1F89FA0356DFA377 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04D7E7091FC69085001B6322 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04D7E7081FC69085001B6322 /* Abodle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04D7E70A1FC69085001B6322 /* Abodle */ = {
+			isa = PBXGroup;
+			children = (
+				04D7E70B1FC69085001B6322 /* AppDelegate.swift */,
+				04B95CDD1FC6ECB7000DE373 /* Constants */,
+				04B95CDA1FC6EC46000DE373 /* NetworkManager */,
+				040446401FC7E9E4006791AE /* CoreDataManager */,
+				0405DFEB1FC7000D00BDCF58 /* Model */,
+				0405DFE81FC6FC7500BDCF58 /* LoadingIndicator */,
+				04D7E72D1FC6DAC3001B6322 /* Extension */,
+				04D7E7201FC69F13001B6322 /* fonts */,
+				04D7E71D1FC69458001B6322 /* DTTextField */,
+				0405DFEE1FC705FB00BDCF58 /* ViewController */,
+				04D7E70F1FC69085001B6322 /* Main.storyboard */,
+				04D7E7121FC69085001B6322 /* Assets.xcassets */,
+				04D7E7141FC69085001B6322 /* LaunchScreen.storyboard */,
+				04D7E7171FC69085001B6322 /* Info.plist */,
+				0404463D1FC7E800006791AE /* CoreData.xcdatamodeld */,
+			);
+			path = Abodle;
+			sourceTree = "<group>";
+		};
+		04D7E71D1FC69458001B6322 /* DTTextField */ = {
+			isa = PBXGroup;
+			children = (
+				04D7E71E1FC69458001B6322 /* DTTextField.swift */,
+			);
+			path = DTTextField;
+			sourceTree = "<group>";
+		};
+		04D7E7201FC69F13001B6322 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				04D7E7211FC69F13001B6322 /* OPENSANS-BOLD.TTF */,
+				04D7E7221FC69F13001B6322 /* OPENSANS-ITALIC.TTF */,
+				04D7E7231FC69F13001B6322 /* OPENSANS-LIGHT.TTF */,
+				04D7E7241FC69F13001B6322 /* OPENSANS-REGULAR.TTF */,
+				04D7E7251FC69F13001B6322 /* OPENSANS-SEMIBOLD.TTF */,
+				04D7E7261FC69F13001B6322 /* VarelaRound-Regular.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		04D7E72D1FC6DAC3001B6322 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0405DFE61FC6FA6C00BDCF58 /* MD5.swift */,
+				04D7E72E1FC6DAE2001B6322 /* Hidekeyboard.swift */,
+				040DE2681FCED9B9007AD0E2 /* ShadowView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		68361B831D7B3E5896EC078B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D459E93E8CEA254C2116DBF7 /* Pods-Abodle.debug.xcconfig */,
+				37BF7C2F2D5678B834357124 /* Pods-Abodle.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF272F8E1F89FA0356DFA377 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BAE8391DD5FF364504BAA7E /* Pods_Abodle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04D7E7071FC69085001B6322 /* Abodle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D7E71A1FC69085001B6322 /* Build configuration list for PBXNativeTarget "Abodle" */;
+			buildPhases = (
+				09E910ABA64FAC1D8B77BCDC /* [CP] Check Pods Manifest.lock */,
+				04D7E7041FC69085001B6322 /* Sources */,
+				04D7E7051FC69085001B6322 /* Frameworks */,
+				04D7E7061FC69085001B6322 /* Resources */,
+				815343DB4004B767B4D5FF72 /* [CP] Embed Pods Frameworks */,
+				58D6DB856E3983AACE4519C1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Abodle;
+			productName = Abodle;
+			productReference = 04D7E7081FC69085001B6322 /* Abodle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04D7E7001FC69085001B6322 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Siyatech Ventures";
+				TargetAttributes = {
+					04D7E7071FC69085001B6322 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 04D7E7031FC69085001B6322 /* Build configuration list for PBXProject "Abodle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04D7E6FF1FC69085001B6322;
+			productRefGroup = 04D7E7091FC69085001B6322 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04D7E7071FC69085001B6322 /* Abodle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04D7E7061FC69085001B6322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D7E7161FC69085001B6322 /* LaunchScreen.storyboard in Resources */,
+				04D7E72A1FC69F13001B6322 /* OPENSANS-REGULAR.TTF in Resources */,
+				04D7E72C1FC69F13001B6322 /* VarelaRound-Regular.otf in Resources */,
+				04D7E7281FC69F13001B6322 /* OPENSANS-ITALIC.TTF in Resources */,
+				04D7E7131FC69085001B6322 /* Assets.xcassets in Resources */,
+				04D7E72B1FC69F13001B6322 /* OPENSANS-SEMIBOLD.TTF in Resources */,
+				04D7E7271FC69F13001B6322 /* OPENSANS-BOLD.TTF in Resources */,
+				04D7E7291FC69F13001B6322 /* OPENSANS-LIGHT.TTF in Resources */,
+				04D7E7111FC69085001B6322 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09E910ABA64FAC1D8B77BCDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Abodle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58D6DB856E3983AACE4519C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Abodle/Pods-Abodle-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abodle/Pods-Abodle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		815343DB4004B767B4D5FF72 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Abodle/Pods-Abodle-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abodle/Pods-Abodle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04D7E7041FC69085001B6322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0405DFE71FC6FA6C00BDCF58 /* MD5.swift in Sources */,
+				040DE26F1FCEE866007AD0E2 /* RentViewController.swift in Sources */,
+				04D7E72F1FC6DAE2001B6322 /* Hidekeyboard.swift in Sources */,
+				04D7E71F1FC69458001B6322 /* DTTextField.swift in Sources */,
+				0403AD001FC8366900A6D0D5 /* ModeViewController.swift in Sources */,
+				0404463F1FC7E800006791AE /* CoreData.xcdatamodeld in Sources */,
+				0405DFEA1FC6FC9100BDCF58 /* LoadingIndicatorView.swift in Sources */,
+				04B95CDC1FC6EC69000DE373 /* NetworkManager.swift in Sources */,
+				040446421FC7E9FF006791AE /* CoreDataManager.swift in Sources */,
+				0405DFED1FC7001C00BDCF58 /* Customer.swift in Sources */,
+				04D7E70E1FC69085001B6322 /* SignUpViewController.swift in Sources */,
+				04D7E70C1FC69085001B6322 /* AppDelegate.swift in Sources */,
+				040DE26C1FCEE227007AD0E2 /* BuyViewController.swift in Sources */,
+				040DE2671FCED7E3007AD0E2 /* HomeViewController.swift in Sources */,
+				0405DFF31FC706A300BDCF58 /* LoginViewController.swift in Sources */,
+				0468DE321FC9365800E1D535 /* UpdateNumberViewController.swift in Sources */,
+				0403AD031FC8369E00A6D0D5 /* OTPViewController.swift in Sources */,
+				040DE2691FCED9B9007AD0E2 /* ShadowView.swift in Sources */,
+				04B95CDF1FC6ECB7000DE373 /* Constant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04D7E70F1FC69085001B6322 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04D7E7101FC69085001B6322 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04D7E7141FC69085001B6322 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04D7E7151FC69085001B6322 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04D7E7181FC69085001B6322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04D7E7191FC69085001B6322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04D7E71B1FC69085001B6322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D459E93E8CEA254C2116DBF7 /* Pods-Abodle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Abodle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.siyatechventures.Abodle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		04D7E71C1FC69085001B6322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37BF7C2F2D5678B834357124 /* Pods-Abodle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Abodle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.siyatechventures.Abodle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04D7E7031FC69085001B6322 /* Build configuration list for PBXProject "Abodle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D7E7181FC69085001B6322 /* Debug */,
+				04D7E7191FC69085001B6322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D7E71A1FC69085001B6322 /* Build configuration list for PBXNativeTarget "Abodle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D7E71B1FC69085001B6322 /* Debug */,
+				04D7E71C1FC69085001B6322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0404463D1FC7E800006791AE /* CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0404463E1FC7E800006791AE /* CoreData.xcdatamodel */,
+			);
+			currentVersion = 0404463E1FC7E800006791AE /* CoreData.xcdatamodel */;
+			path = CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04D7E7001FC69085001B6322 /* Project object */;
+}
